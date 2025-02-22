@@ -1,0 +1,19 @@
+@use "../../style/variables.scss" as *;
+
+.footer {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background-color: $white;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+
+  &__logo {
+    display: flex;
+    width: 200px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+  }
+}

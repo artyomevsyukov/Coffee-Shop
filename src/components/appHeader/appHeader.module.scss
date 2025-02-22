@@ -1,0 +1,19 @@
+@use "../../style/variables.scss" as *;
+
+.header {
+  display: flex;
+  align-items: end;
+
+  &__logo {
+    transform: translateY(5px) translateX(6px);
+  }
+
+  &__nav {
+    display: flex;
+    gap: 40px;
+  }
+
+  &__link {
+    font-size: 12px;
+  }
+}
