@@ -1,7 +1,6 @@
 import styles from "./appHeader.module.scss"
 import { Link, NavLink } from "react-router-dom"
 
-// import Logo from "../svg/logo/Logo"
 import SvgLogo from "../icons/SvgLogo"
 
 const AppHeader = ({ color = "black" }) => {

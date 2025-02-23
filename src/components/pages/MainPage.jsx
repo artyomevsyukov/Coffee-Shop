@@ -5,6 +5,7 @@ import PageHero from "../pageHero/PageHero"
 
 import beensLogoWhite from "../../assets/beansLogoWhite.svg"
 import styles from "./MainPage.module.scss"
+import AboutUs from "../aboutUs/AboutUs"
 
 const MainPage = () => {
   return (
@@ -33,6 +34,7 @@ const MainPage = () => {
           More
         </button> */}
       </PageHero>
+      <AboutUs />
     </section>
   )
 }

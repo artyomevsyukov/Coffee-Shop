@@ -24,9 +24,9 @@ const PageHero = ({
   return (
     <div className={`${styles.pageHero} ${className}`} style={heroStyle}>
       <div className={styles.content}>
-        {firstChild} {/* Отобразится над заголовком */}
+        {firstChild}
         <h1 className={styles.title}>{title}</h1>
-        {restChildren} {/* Отобразится под заголовком */}
+        {restChildren}
       </div>
     </div>
   )
