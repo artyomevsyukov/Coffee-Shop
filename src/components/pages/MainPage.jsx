@@ -24,9 +24,14 @@ const MainPage = () => {
         </p>
         <p className={styles.mainPageHero__desc}>Want to try our beans?</p>
 
-        <button className={styles.mainPageHero__button}>
-          <Link to="more">More </Link>
-        </button>
+        <Link to="more" className={styles.mainPageHero__button}>
+          More
+        </Link>
+        {/* <button
+          className={styles.mainPageHero__button}
+          onClick={() => navigation.navigate("/more")}>
+          More
+        </button> */}
       </PageHero>
     </section>
   )
