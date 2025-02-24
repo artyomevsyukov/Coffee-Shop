@@ -5,16 +5,13 @@ const PageHero = ({
   title,
   backgroundImage,
   height = "260px",
-  backgroundPosition = "center",
-  backgroundSize = "cover",
   className = "",
+  marginTop = "60px",
   children,
 }) => {
   const heroStyle = {
-    backgroundImage: `url(${backgroundImage})`,
     height: height,
-    backgroundPosition: backgroundPosition,
-    backgroundSize: backgroundSize,
+    backgroundImage: `url(${backgroundImage})`,
   }
 
   const childrenArray = React.Children.toArray(children) // Преобразуем в массив
@@ -25,7 +22,9 @@ const PageHero = ({
     <div className={`${styles.pageHero} ${className}`} style={heroStyle}>
       <div className={styles.content}>
         {firstChild}
-        <h1 className={styles.title}>{title}</h1>
+        <h1 className={styles.title} style={{ marginTop }}>
+          {title}
+        </h1>
         {restChildren}
       </div>
     </div>

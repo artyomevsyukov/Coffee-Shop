@@ -1,5 +1,7 @@
 .pageHero {
   padding: 30px 150px;
+  background-position: center;
+  background-size: cover;
 }
 
 .content {
@@ -7,8 +9,9 @@
 }
 
 .title {
-  margin-top: 111px;
+  // margin-top: 111px;
   margin-bottom: 20px;
   font-weight: 700;
   font-size: 40px;
+  background-image: image-set();
 }

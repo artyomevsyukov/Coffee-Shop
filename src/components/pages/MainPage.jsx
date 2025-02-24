@@ -1,19 +1,20 @@
 import { Link } from "react-router-dom"
+import styles from "./MainPage.module.scss"
 
 import AppHeader from "../appHeader/AppHeader"
 import PageHero from "../pageHero/PageHero"
 
 import beensLogoWhite from "../../assets/beansLogoWhite.svg"
-import styles from "./MainPage.module.scss"
 import AboutUs from "../aboutUs/AboutUs"
 
 const MainPage = () => {
   return (
-    <section className={styles.mainPageHero}>
+    <div className={styles.mainPageHero}>
       <PageHero
         title="Everything You Love About Coffee"
         backgroundImage="Main-bg.jpg"
-        height="640px">
+        height="640px"
+        marginTop="110px">
         <AppHeader color="white" />
         <img
           src={beensLogoWhite}
@@ -35,7 +36,7 @@ const MainPage = () => {
         </button> */}
       </PageHero>
       <AboutUs />
-    </section>
+    </div>
   )
 }
 
