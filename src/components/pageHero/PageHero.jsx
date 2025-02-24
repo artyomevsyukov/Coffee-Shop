@@ -3,20 +3,36 @@ import styles from "./PageHero.module.scss"
 
 const PageHero = ({
   title,
-  backgroundImage,
+  backgroundImage, // Принимаем только базовый путь, без 2x/3x
   height = "260px",
   className = "",
   marginTop = "60px",
   children,
 }) => {
+  // Получаем расширение файла (например, "jpg" из "Main-bg.jpg")
+  console.log("backgroundImage: ", backgroundImage)
+  const fileExt = backgroundImage.split(".").pop()
+  console.log("fileExt: ", fileExt)
+  const fileBase = backgroundImage.replace(`.${fileExt}`, "") // Убираем расширение
+  console.log("fileBase: ", fileBase)
+
+  // Генерируем image-set автоматически
   const heroStyle = {
     height: height,
-    backgroundImage: `url(${backgroundImage})`,
+    // backgroundImage: `url(${backgroundImage})`,
+    backgroundImage: `image-set(
+      url(/${fileBase}.${fileExt}) 1x, 
+      url(/${fileBase}@2x.${fileExt}) 2x,
+      url(/${fileBase}@3x.${fileExt}) 3x
+    )`,
+    backgroundSize: "cover",
+    backgroundPosition: "center",
   }
+  console.log("heroStyle.backgroundImage :", heroStyle.backgroundImage)
 
-  const childrenArray = React.Children.toArray(children) // Преобразуем в массив
-  const firstChild = childrenArray[0] // Первый элемент
-  const restChildren = childrenArray.slice(1) // Остальные
+  const childrenArray = React.Children.toArray(children)
+  const firstChild = childrenArray[0]
+  const restChildren = childrenArray.slice(1)
 
   return (
     <div className={`${styles.pageHero} ${className}`} style={heroStyle}>
