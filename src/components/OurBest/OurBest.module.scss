@@ -1,0 +1,13 @@
+.OurBest {
+  padding: 80px;
+  background-image: url("/bg/our-best-bg.jpg");
+  &__title {
+    padding-bottom: 40px;
+  }
+  &__list {
+    display: flex;
+    justify-content: center;
+
+    gap: 70px;
+  }
+}

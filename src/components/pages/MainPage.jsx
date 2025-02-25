@@ -6,7 +6,7 @@ import PageHero from "../pageHero/PageHero"
 
 import beensLogoWhite from "../../assets/beansLogoWhite.svg"
 import AboutUs from "../aboutUs/AboutUs"
-import CoffeeCard from "../CoffeeCard/CoffeeCard"
+import OurBest from "../OurBest/OurBest"
 
 const MainPage = () => {
   return (
@@ -36,8 +36,8 @@ const MainPage = () => {
           More
         </button> */}
       </PageHero>
-      {/* <AboutUs /> */}
-      <CoffeeCard />
+      <AboutUs />
+      <OurBest />
     </div>
   )
 }

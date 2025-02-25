@@ -1,44 +1,27 @@
 import styles from "./CoffeeCard.module.scss"
 import { Link } from "react-router-dom"
-import useCoffeeData from "../../hooks/useCoffeeData"
+import { srcSet, srcSetWebp } from "../../utils/srcSet"
 
-const CoffeeCard = ({ className = "" }) => {
-  const { data, loading, error, refetch } = useCoffeeData()
-
-  if (loading) return <div>Loading...</div>
-  if (error)
-    return (
-      <div>
-        <div>Error: {error}</div>
-        <button onClick={refetch}>Try Again</button>
-      </div>
-    )
-  if (!data || data.length === 0) return <div>Нет данных</div>
-
-  console.log("coffeeCard: ", data)
+const CoffeeCard = ({ data }) => {
   return (
     <>
-      <button
-        onClick={refetch}
-        style={{
-          display: "block",
-          margin: "20px auto",
-          padding: "20px",
-          border: "1px solid blue",
-        }}>
-        Try Again
-      </button>
-      <Link to="/">
-        <div className={`${styles.CoffeeCard} ${className}`}>
-          {data.map((el) => (
-            <div key={el.id}>
-              <div>{el.title}</div>
-              <img src={el.img} alt="coffee image" />
-              <div>{el.desc}</div>
-            </div>
-          ))}
-        </div>
-      </Link>
+      {data.map((el) => (
+        <Link to={el.link} className={styles.coffeeCard__link} key={el.id}>
+          <div className={styles.coffeeCard}>
+            <picture>
+              <source srcSet={srcSetWebp(el.img)} type="image/webp" />
+              <img
+                src={el.img}
+                srcSet={srcSet(el.img)}
+                alt="coffee image"
+                className={styles.coffeeCard__img}
+              />
+            </picture>
+            <div className={styles.coffeeCard__title}>{el.title}</div>
+            <div className={styles.coffeeCard__price}>{el.price}</div>
+          </div>
+        </Link>
+      ))}
     </>
   )
 }

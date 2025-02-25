@@ -1,5 +1,8 @@
+@use "../../style/variables.scss" as *;
+
 .pageHero {
   padding: 30px 150px;
+  color: $white;
   // background-position: center;
   // background-size: cover;
 }

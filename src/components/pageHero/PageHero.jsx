@@ -10,11 +10,8 @@ const PageHero = ({
   children,
 }) => {
   // Получаем расширение файла (например, "jpg" из "Main-bg.jpg")
-  console.log("backgroundImage: ", backgroundImage)
   const fileExt = backgroundImage.split(".").pop()
-  console.log("fileExt: ", fileExt)
   const fileBase = backgroundImage.replace(`.${fileExt}`, "") // Убираем расширение
-  console.log("fileBase: ", fileBase)
 
   // Генерируем image-set автоматически
   const heroStyle = {
@@ -28,7 +25,6 @@ const PageHero = ({
     backgroundSize: "cover",
     backgroundPosition: "center",
   }
-  console.log("heroStyle.backgroundImage :", heroStyle.backgroundImage)
 
   const childrenArray = React.Children.toArray(children)
   const firstChild = childrenArray[0]

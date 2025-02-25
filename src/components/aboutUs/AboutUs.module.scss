@@ -20,7 +20,10 @@
   &__desc {
     margin: 0 auto;
     max-width: 590px;
-    margin-bottom: 20px;
     color: $black;
+
+    &:not(:last-child) {
+      margin-bottom: 20px;
+    }
   }
 }

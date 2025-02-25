@@ -1,13 +1,8 @@
 @use "../../style/variables.scss" as *;
 
 .mainPageHero {
-  //   text-align: center;
+  color: $white;
 
-  &__title {
-    // font-weight: 700;
-    // font-size: 40px;
-    // margin-bottom: 20px;
-  }
   &__logo {
     width: 200px;
     height: 30px;
