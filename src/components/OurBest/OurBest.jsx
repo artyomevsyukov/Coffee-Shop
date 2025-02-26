@@ -27,7 +27,7 @@ const OurBest = () => {
   ]
   return (
     <section className={styles.OurBest}>
-      <h2 className={`${styles.OurBest__title} title`}>OurBest</h2>
+      <h2 className={`${styles.OurBest__title} title`}>Our Best</h2>
       <div className={styles.OurBest__list}>
         <CoffeeCard data={data} />
       </div>

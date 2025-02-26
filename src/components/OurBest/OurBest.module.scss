@@ -1,6 +1,10 @@
 .OurBest {
   padding: 80px;
-  background-image: url("/bg/our-best-bg.jpg");
+  // background-image: url("/bg/our-best-bg.jpg");
+  background-image: image-set(
+    url("/bg/our-best-bg.webp") type("image/webp"),
+    url("/bg/our-best-bg.jpg") type("image/jpeg")
+  );
   &__title {
     padding-bottom: 40px;
   }
