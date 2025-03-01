@@ -18,6 +18,7 @@ const CoffeeCard = ({ data }) => {
               />
             </picture>
             <div className={styles.coffeeCard__title}>{el.title}</div>
+            <div className={styles.coffeeCard__country}>{el.country}</div>
             <div className={styles.coffeeCard__price}>{el.price}</div>
           </div>
         </Link>

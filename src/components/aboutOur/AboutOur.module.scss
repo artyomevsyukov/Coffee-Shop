@@ -1,12 +1,25 @@
 @use "../../style/variables.scss" as *;
 
-.AboutUs {
+.AboutOur {
+  display: flex;
+  justify-content: center;
   text-align: center;
-  padding-top: 80px;
-  padding-bottom: 110px;
+  padding-top: 70px;
+  padding-bottom: 30px;
   background-color: $white;
 
+  &__img {
+    text-align: center;
+  }
+  &__left {
+    margin-right: 80px;
+  }
+
+  &__right {
+  }
+
   &__title {
+    margin-top: 10px;
     margin-bottom: 20px;
     font-weight: 400;
     font-size: 24px;
@@ -14,13 +27,18 @@
   }
 
   &__logo {
-    margin-bottom: 40px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 25px;
   }
 
   &__desc {
     margin: 0 auto;
-    max-width: 590px;
+    max-width: 350px;
     margin-bottom: 20px;
     color: $black;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
   }
 }

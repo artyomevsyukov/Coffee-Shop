@@ -1,5 +1,9 @@
 # React + Vite
 
+# Сжатие картинок
+
+- [vite-plugin-image-optimizer](https://github.com/FatehAK/vite-plugin-image-optimizer/tree/main)
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:

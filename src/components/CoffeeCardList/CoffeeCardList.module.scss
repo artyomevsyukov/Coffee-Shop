@@ -1,2 +1,11 @@
 .coffeeCardList {
+  &__container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 60px 70px;
+  }
 }

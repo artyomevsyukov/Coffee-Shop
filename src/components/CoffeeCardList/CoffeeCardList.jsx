@@ -17,21 +17,26 @@ const CoffeeCardList = () => {
 
   console.log("coffeeCard: ", data)
   return (
-    <section className={styles.coffeeCardList}>
-      {/* <button
-        onClick={refetch}
-        style={{
-          display: "block",
-          margin: "20px auto",
-          padding: "20px",
-          border: "1px solid blue",
-        }}>
-        Try Again
-      </button> */}
-
+    <div className={styles.coffeeCardList__container}>
       <CoffeeCard data={data} />
-    </section>
+    </div>
   )
+  // return (
+  //   <section className={styles.coffeeCardList}>
+  //     {/* <button
+  //       onClick={refetch}
+  //       style={{
+  //         display: "block",
+  //         margin: "20px auto",
+  //         padding: "20px",
+  //         border: "1px solid blue",
+  //       }}>
+  //       Try Again
+  //     </button> */}
+
+  //     <CoffeeCard data={data} />
+  //   </section>
+  // )
 }
 
 export default CoffeeCardList

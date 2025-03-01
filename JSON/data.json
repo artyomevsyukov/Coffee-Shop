@@ -1,7 +1,8 @@
 [
   {
     "id": 1,
-    "title": "Araldo",
+    "link": "/OurCoffee/1",
+    "title": "AROMISTICO Coffee 1 kg",
     "country": "Colombia",
     "price": "$3.83",
     "img": "2.jpg",
@@ -9,7 +10,8 @@
   },
   {
     "id": 2,
-    "title": "Yuma",
+    "link": "/OurCoffee/2",
+    "title": "AROMISTICO Coffee 1 kg",
     "country": "Brazil",
     "price": "$14.32",
     "img": "2.jpg",
@@ -17,7 +19,8 @@
   },
   {
     "id": 3,
-    "title": "Phebe",
+    "link": "/OurCoffee/3",
+    "title": "AROMISTICO Coffee 1 kg",
     "country": "Brazil",
     "price": "$5.39",
     "img": "3.jpg",
@@ -25,7 +28,8 @@
   },
   {
     "id": 4,
-    "title": "Elvina",
+    "link": "/OurCoffee/1",
+    "title": "AROMISTICO Coffee 1 kg",
     "country": "Brazil",
     "price": "$5.98",
     "img": "2.jpg",
@@ -33,7 +37,8 @@
   },
   {
     "id": 5,
-    "title": "Celestyna",
+    "link": "/OurCoffee/1",
+    "title": "Presto Coffee Beans 1 kg",
     "country": "Brazil",
     "price": "$15.68",
     "img": "1.jpg",
@@ -41,7 +46,8 @@
   },
   {
     "id": 6,
-    "title": "Sabra",
+    "link": "/OurCoffee/1",
+    "title": "Presto Coffee Beans 1 kg",
     "country": "Brazil",
     "price": "$10.79",
     "img": "1.jpg",
@@ -49,7 +55,8 @@
   },
   {
     "id": 7,
-    "title": "Robbi",
+    "link": "/OurCoffee/1",
+    "title": "Presto Coffee Beans 1 kg",
     "country": "Brazil",
     "price": "$9.32",
     "img": "2.jpg",
@@ -57,7 +64,8 @@
   },
   {
     "id": 8,
-    "title": "Carver",
+    "link": "/OurCoffee/1",
+    "title": "Presto Coffee Beans 1 kg",
     "country": "Brazil",
     "price": "$12.91",
     "img": "3.jpg",
@@ -65,7 +73,8 @@
   },
   {
     "id": 9,
-    "title": "Eunice",
+    "link": "/OurCoffee/1",
+    "title": "Presto Coffee Beans 1 kg",
     "country": "Colombia",
     "price": "$3.70",
     "img": "3.jpg",
@@ -73,7 +82,8 @@
   },
   {
     "id": 10,
-    "title": "Merlina",
+    "link": "/OurCoffee/1",
+    "title": "Presto Coffee Beans 1 kg",
     "country": "Brazil",
     "price": "$6.66",
     "img": "3.jpg",
@@ -81,7 +91,8 @@
   },
   {
     "id": 11,
-    "title": "Gillie",
+    "link": "/OurCoffee/1",
+    "title": "Solimo Coffee Beans 2 kg",
     "country": "Brazil",
     "price": "$9.78",
     "img": "3.jpg",
@@ -89,7 +100,8 @@
   },
   {
     "id": 12,
-    "title": "Dorothy",
+    "link": "/OurCoffee/1",
+    "title": "Solimo Coffee Beans 2 kg",
     "country": "Brazil",
     "price": "$14.82",
     "img": "2.jpg",
@@ -97,7 +109,8 @@
   },
   {
     "id": 13,
-    "title": "Brandy",
+    "link": "/OurCoffee/1",
+    "title": "Solimo Coffee Beans 2 kg",
     "country": "Brazil",
     "price": "$9.60",
     "img": "2.jpg",
@@ -105,7 +118,8 @@
   },
   {
     "id": 14,
-    "title": "Hammad",
+    "link": "/OurCoffee/1",
+    "title": "Solimo Coffee Beans 2 kg",
     "country": "Brazil",
     "price": "$5.07",
     "img": "1.jpg",
@@ -113,7 +127,8 @@
   },
   {
     "id": 15,
-    "title": "Vincenz",
+    "link": "/OurCoffee/1",
+    "title": "Solimo Coffee Beans 2 kg",
     "country": "Brazil",
     "price": "$3.27",
     "img": "2.jpg",
@@ -121,6 +136,7 @@
   },
   {
     "id": 16,
+    "link": "/OurCoffee/1",
     "title": "Karole",
     "country": "Brazil",
     "price": "$6.96",
@@ -129,6 +145,7 @@
   },
   {
     "id": 17,
+    "link": "/OurCoffee/1",
     "title": "Binni",
     "country": "Brazil",
     "price": "$14.00",
@@ -137,6 +154,7 @@
   },
   {
     "id": 18,
+    "link": "/OurCoffee/1",
     "title": "Mabelle",
     "country": "Brazil",
     "price": "$13.95",
@@ -145,6 +163,7 @@
   },
   {
     "id": 19,
+    "link": "/OurCoffee/1",
     "title": "Robyn",
     "country": "Brazil",
     "price": "$12.70",
@@ -153,6 +172,7 @@
   },
   {
     "id": 20,
+    "link": "/OurCoffee/1",
     "title": "Raquela",
     "country": "Brazil",
     "price": "$14.73",
