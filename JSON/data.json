@@ -29,7 +29,7 @@
   {
     "id": 4,
     "title": "AROMISTICO Coffee 1 kg",
-    "country": "Brazil",
+    "country": "Kenya",
     "price": "$5.98",
     "img": "/2.jpg",
     "thumbnail": "../src/assets/AboutIt.jpg",
@@ -47,7 +47,7 @@
   {
     "id": 6,
     "title": "Presto Coffee Beans 1 kg",
-    "country": "Brazil",
+    "country": "Columbia",
     "price": "$10.79",
     "img": "/1.jpg",
     "thumbnail": "../src/assets/AboutIt.jpg",
@@ -56,7 +56,7 @@
   {
     "id": 7,
     "title": "Presto Coffee Beans 1 kg",
-    "country": "Brazil",
+    "country": "Kenya",
     "price": "$9.32",
     "img": "/2.jpg",
     "thumbnail": "../src/assets/AboutIt.jpg",
@@ -92,7 +92,7 @@
   {
     "id": 11,
     "title": "Solimo Coffee Beans 2 kg",
-    "country": "Brazil",
+    "country": "Kenya",
     "price": "$9.78",
     "img": "/3.jpg",
     "thumbnail": "../src/assets/AboutIt.jpg",
@@ -119,7 +119,7 @@
   {
     "id": 14,
     "title": "Solimo Coffee Beans 2 kg",
-    "country": "Brazil",
+    "country": "Kenya",
     "price": "$5.07",
     "img": "/1.jpg",
     "thumbnail": "../src/assets/AboutIt.jpg",
@@ -128,7 +128,7 @@
   {
     "id": 15,
     "title": "Solimo Coffee Beans 2 kg",
-    "country": "Brazil",
+    "country": "Kenya",
     "price": "$3.27",
     "img": "/2.jpg",
     "thumbnail": "../src/assets/AboutIt.jpg",
@@ -155,7 +155,7 @@
   {
     "id": 18,
     "title": "Mabelle",
-    "country": "Brazil",
+    "country": "Columbia",
     "price": "$13.95",
     "img": "/3.jpg",
     "thumbnail": "/AboutIt.jpg",
@@ -164,7 +164,7 @@
   {
     "id": 19,
     "title": "Robyn",
-    "country": "Brazil",
+    "country": "Columbia",
     "price": "$12.70",
     "img": "/1.jpg",
     "thumbnail": "../src/assets/AboutIt.jpg",
@@ -173,7 +173,7 @@
   {
     "id": 20,
     "title": "Raquela",
-    "country": "Brazil",
+    "country": "Columbia",
     "price": "$14.73",
     "img": "/2.jpg",
     "thumbnail": "../src/assets/AboutIt.jpg",

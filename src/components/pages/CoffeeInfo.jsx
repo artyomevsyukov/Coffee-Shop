@@ -9,7 +9,6 @@ const CoffeeInfo = () => {
   const [coffee, setCoffee] = useState(null)
 
   const { data, loading, error } = useCoffeeData()
-  console.log("useCoffeeData: ", data)
 
   useEffect(() => {
     // const foundCoffee = data.find((item) => item.id === id) || null
@@ -26,7 +25,7 @@ const CoffeeInfo = () => {
         setCoffee(null)
       }
     }
-  }, [data, id, coffee])
+  }, [data, id])
 
   if (loading) return <div>Loading...</div>
   if (error) return <div>Error: {error}</div>

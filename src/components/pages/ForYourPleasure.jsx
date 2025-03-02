@@ -5,8 +5,10 @@ import Divider from "../divider/Divider"
 
 import img from "../../assets/AboutOurGoodsImg.jpg"
 import CoffeeCardList from "../CoffeeCardList/CoffeeCardList"
+import useCoffeeData from "../../hooks/useCoffeeData"
 
 const ForYourPleasure = () => {
+  const { data, loading, error, refetch } = useCoffeeData()
   return (
     <section>
       <PageHero title="For your pleasure" backgroundImage="coffee-shop.jpg">
@@ -30,7 +32,12 @@ const ForYourPleasure = () => {
         </p>
       </AboutOur>
       <Divider />
-      <CoffeeCardList />
+      <CoffeeCardList
+        data={data}
+        loading={loading}
+        error={error}
+        refetch={refetch}
+      />
     </section>
   )
 }

@@ -1,0 +1,73 @@
+@use "../../style/variables.scss" as *;
+
+.filter {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+
+  margin: 30px 0;
+  font-weight: 400;
+  font-size: 14px;
+  //   text-align: center;
+
+  &__search {
+    display: flex;
+    align-items: center;
+  }
+  &__label {
+    margin-right: 14px;
+  }
+
+  &__input {
+    padding-left: 20px;
+
+    border-radius: 4px;
+    width: 180px;
+    height: 30px;
+    box-shadow: 4px 4px 20px 0 rgba(0, 0, 0, 0.25);
+    background: $white;
+
+    &::placeholder {
+      padding-left: 17px;
+      font-size: 12px;
+      color: rgba(0, 0, 0, 0.5);
+    }
+  }
+
+  &__filters {
+    display: flex;
+    align-items: center;
+  }
+
+  &__buttons {
+    display: flex;
+    gap: 5px;
+  }
+
+  &__button {
+    font-size: 14px;
+    border: none;
+    padding: 7px 15px 5px;
+    // width: 75px;
+    height: 30px;
+    font-size: 12px;
+    text-align: center;
+    color: $black;
+    box-shadow: 4px 4px 20px 0 rgba(0, 0, 0, 0.25);
+    background: $white;
+    cursor: pointer;
+    transition: background-color 300ms ease-in, box-shadow 300ms ease-in;
+
+    &:first-child {
+      border-radius: 4px 0 0 4px;
+    }
+    &:last-child {
+      border-radius: 0 4px 4px 0;
+    }
+
+    &:hover {
+      background-color: rgba(127, 126, 126, 0.7);
+      box-shadow: 5px 5px 15px 0 rgba(0, 0, 0, 0.85);
+    }
+  }
+}

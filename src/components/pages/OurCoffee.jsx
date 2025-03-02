@@ -1,10 +1,48 @@
 import AboutOur from "../aboutOur/AboutOur"
 import Divider from "../divider/Divider"
 import CoffeeCardList from "../CoffeeCardList/CoffeeCardList"
+import useCoffeeData from "../../hooks/useCoffeeData"
 
 import img from "../../assets/AboutOurBeansImg.jpg"
+import Filter from "../Filter/Filter"
+import { useEffect, useState } from "react"
 
 const OurCoffee = () => {
+  // const coffeeData = useCoffeeData()
+  // const { data, loading, error, refetch } = coffeeData
+  const { data, loading, error, refetch } = useCoffeeData()
+  const [coffeeList, setCoffeeList] = useState([])
+  // const [originalData, setOriginalData] = useState([])
+
+  useEffect(() => {
+    setCoffeeList(data)
+    // setOriginalData(data)
+  }, [data])
+  // Обработчик изменения фильтра
+  const handleFilterChange = (filter) => {
+    // Здесь можно обновить состояние или выполнить фильтрацию данных
+
+    if (!data.length) return
+
+    switch (filter.value) {
+      case "Brazil":
+        setCoffeeList(data.filter((item) => item.country === "Brazil"))
+        break
+      case "Kenya":
+        setCoffeeList(data.filter((item) => item.country === "Kenya"))
+        break
+      case "Columbia":
+        setCoffeeList(data.filter((item) => item.country === "Columbia"))
+        break
+      case "Clear":
+        setCoffeeList(data)
+        break
+      default:
+        setCoffeeList(data)
+        break
+    }
+  }
+
   return (
     <>
       <AboutOur data={{ img }} title="About Our Beans">
@@ -25,7 +63,16 @@ const OurCoffee = () => {
         </p>
       </AboutOur>
       <Divider />
-      <CoffeeCardList />
+      <Filter onFilterChange={handleFilterChange} />
+
+      <CoffeeCardList
+        data={coffeeList}
+        loading={loading}
+        error={error}
+        refetch={refetch}
+      />
+      {/* <CoffeeCardList {...coffeeData} /> */}
+      {/* <CoffeeCardList props={{ data, loading, error, refetch }} /> */}
     </>
   )
 }

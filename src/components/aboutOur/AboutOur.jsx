@@ -4,7 +4,6 @@ import Title from "../Title/Title"
 
 const AboutOur = ({ data, children, align = "center" }) => {
   const { img, title, country, price } = data
-  console.log("data: ", data)
   return (
     <section className={styles.AboutOur}>
       <div className={styles.AboutOur__left}>
