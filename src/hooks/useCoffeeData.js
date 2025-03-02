@@ -20,11 +20,25 @@ const useCoffeeData = () => {
     }
   }
 
+  const singleCoffeeData = async (id) => {
+    if (data) {
+      return data.find((item) => item.id === id)
+    }
+
+    try {
+      const result = await getCoffeeData()
+      return result.find((item) => item.id === id)
+    } catch (error) {
+      console.error("Error fetching single coffee data:", error)
+      return null
+    }
+  }
+
   useEffect(() => {
     fetchData()
   }, [])
 
-  return { data, loading, error, refetch: fetchData }
+  return { data, loading, error, refetch: fetchData, singleCoffeeData }
 }
 
 export default useCoffeeData

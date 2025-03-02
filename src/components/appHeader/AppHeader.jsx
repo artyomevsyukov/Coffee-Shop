@@ -1,9 +1,11 @@
+import React from "react"
 import styles from "./appHeader.module.scss"
 import { Link, NavLink } from "react-router-dom"
 
 import SvgLogo from "../icons/SvgLogo"
 
-const AppHeader = ({ color = "black" }) => {
+// eslint-disable-next-line react/display-name
+const AppHeader = React.memo(({ color = "black" }) => {
   const linkStyle = {
     color: color,
   }
@@ -33,6 +35,6 @@ const AppHeader = ({ color = "black" }) => {
       </nav>
     </div>
   )
-}
+})
 
 export default AppHeader

@@ -1,5 +1,3 @@
-import PageHero from "../pageHero/PageHero"
-import AppHeader from "../appHeader/AppHeader"
 import AboutOur from "../aboutOur/AboutOur"
 import Divider from "../divider/Divider"
 import CoffeeCardList from "../CoffeeCardList/CoffeeCardList"
@@ -9,10 +7,7 @@ import img from "../../assets/AboutOurBeansImg.jpg"
 const OurCoffee = () => {
   return (
     <>
-      <PageHero title="Our Coffee" backgroundImage="coffee-shop.jpg">
-        <AppHeader color="white" />
-      </PageHero>
-      <AboutOur img={img} title="About Our Beans">
+      <AboutOur data={{ img }} title="About Our Beans">
         <p>
           Extremity sweetness difficult behaviour he&nbsp;of. On <br />
           disposal of&nbsp;as&nbsp;landlord horrible.

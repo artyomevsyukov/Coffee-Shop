@@ -1,9 +1,6 @@
-import { srcSet, srcSetWebp } from "../../utils/srcSet"
+import { srcSet /* srcSetWebp */ } from "../../utils/srcSet"
 
 const Picture = ({ img, alt, className = "" }) => {
-  console.log(img)
-  console.log(alt)
-  console.log(className)
   return (
     <picture className={className}>
       {/* <source srcSet={srcSetWebp(img)} type="image/webp" /> */}

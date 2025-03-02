@@ -12,7 +12,7 @@ const ForYourPleasure = () => {
       <PageHero title="For your pleasure" backgroundImage="coffee-shop.jpg">
         <AppHeader color="white" />
       </PageHero>
-      <AboutOur img={img} title="About Our Beans">
+      <AboutOur data={{ img }} align="center" title="About Our Beans">
         <p>
           Extremity sweetness difficult behaviour he&nbsp;of. On <br />
           disposal of&nbsp;as&nbsp;landlord horrible.

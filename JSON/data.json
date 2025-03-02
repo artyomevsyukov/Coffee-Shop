@@ -1,182 +1,182 @@
 [
   {
     "id": 1,
-    "link": "/OurCoffee/1",
-    "title": "AROMISTICO Coffee 1 kg",
+    "title": "Solimo Coffee Beans 2 kg",
     "country": "Colombia",
-    "price": "$3.83",
-    "img": "2.jpg",
+    "price": "10.73$",
+    "img": "/1.jpg",
+    "thumbnail": "../src/assets/AboutIt.jpg",
     "desc": "Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat."
   },
   {
     "id": 2,
-    "link": "/OurCoffee/2",
-    "title": "AROMISTICO Coffee 1 kg",
+    "title": "Presto Coffee Beans 1 kg",
     "country": "Brazil",
-    "price": "$14.32",
-    "img": "2.jpg",
+    "price": "15.99$",
+    "img": "/2.jpg",
+    "thumbnail": "../src/assets/AboutIt.jpg",
     "desc": "Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia."
   },
   {
     "id": 3,
-    "link": "/OurCoffee/3",
     "title": "AROMISTICO Coffee 1 kg",
     "country": "Brazil",
-    "price": "$5.39",
-    "img": "3.jpg",
+    "price": "6.99$",
+    "img": "/3.jpg",
+    "thumbnail": "../src/assets/AboutIt.jpg",
     "desc": "In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante."
   },
   {
     "id": 4,
-    "link": "/OurCoffee/1",
     "title": "AROMISTICO Coffee 1 kg",
     "country": "Brazil",
     "price": "$5.98",
-    "img": "2.jpg",
-    "desc": "Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede."
+    "img": "/2.jpg",
+    "thumbnail": "../src/assets/AboutIt.jpg",
+    "desc": " : Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
   },
   {
     "id": 5,
-    "link": "/OurCoffee/1",
     "title": "Presto Coffee Beans 1 kg",
     "country": "Brazil",
     "price": "$15.68",
-    "img": "1.jpg",
+    "img": "/1.jpg",
+    "thumbnail": "../src/assets/AboutIt.jpg",
     "desc": "Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia."
   },
   {
     "id": 6,
-    "link": "/OurCoffee/1",
     "title": "Presto Coffee Beans 1 kg",
     "country": "Brazil",
     "price": "$10.79",
-    "img": "1.jpg",
+    "img": "/1.jpg",
+    "thumbnail": "../src/assets/AboutIt.jpg",
     "desc": "Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est."
   },
   {
     "id": 7,
-    "link": "/OurCoffee/1",
     "title": "Presto Coffee Beans 1 kg",
     "country": "Brazil",
     "price": "$9.32",
-    "img": "2.jpg",
+    "img": "/2.jpg",
+    "thumbnail": "../src/assets/AboutIt.jpg",
     "desc": "Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio."
   },
   {
     "id": 8,
-    "link": "/OurCoffee/1",
     "title": "Presto Coffee Beans 1 kg",
     "country": "Brazil",
     "price": "$12.91",
-    "img": "3.jpg",
+    "img": "/3.jpg",
+    "thumbnail": "../src/assets/AboutIt.jpg",
     "desc": "Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices."
   },
   {
     "id": 9,
-    "link": "/OurCoffee/1",
     "title": "Presto Coffee Beans 1 kg",
     "country": "Colombia",
     "price": "$3.70",
-    "img": "3.jpg",
+    "img": "/3.jpg",
+    "thumbnail": "../src/assets/AboutIt.jpg",
     "desc": "Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi. Cras non velit nec nisi vulputate nonummy."
   },
   {
     "id": 10,
-    "link": "/OurCoffee/1",
     "title": "Presto Coffee Beans 1 kg",
     "country": "Brazil",
     "price": "$6.66",
-    "img": "3.jpg",
+    "img": "/3.jpg",
+    "thumbnail": "../src/assets/AboutIt.jpg",
     "desc": "Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat. In congue. Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus."
   },
   {
     "id": 11,
-    "link": "/OurCoffee/1",
     "title": "Solimo Coffee Beans 2 kg",
     "country": "Brazil",
     "price": "$9.78",
-    "img": "3.jpg",
+    "img": "/3.jpg",
+    "thumbnail": "../src/assets/AboutIt.jpg",
     "desc": "Aliquam sit amet diam in magna bibendum imperdiet."
   },
   {
     "id": 12,
-    "link": "/OurCoffee/1",
     "title": "Solimo Coffee Beans 2 kg",
     "country": "Brazil",
     "price": "$14.82",
-    "img": "2.jpg",
+    "img": "/2.jpg",
+    "thumbnail": "../src/assets/AboutIt.jpg",
     "desc": "Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis."
   },
   {
     "id": 13,
-    "link": "/OurCoffee/1",
     "title": "Solimo Coffee Beans 2 kg",
     "country": "Brazil",
     "price": "$9.60",
-    "img": "2.jpg",
+    "img": "/2.jpg",
+    "thumbnail": "../src/assets/AboutIt.jpg",
     "desc": "Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem."
   },
   {
     "id": 14,
-    "link": "/OurCoffee/1",
     "title": "Solimo Coffee Beans 2 kg",
     "country": "Brazil",
     "price": "$5.07",
-    "img": "1.jpg",
+    "img": "/1.jpg",
+    "thumbnail": "../src/assets/AboutIt.jpg",
     "desc": "Ut tellus. Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi. Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla."
   },
   {
     "id": 15,
-    "link": "/OurCoffee/1",
     "title": "Solimo Coffee Beans 2 kg",
     "country": "Brazil",
     "price": "$3.27",
-    "img": "2.jpg",
+    "img": "/2.jpg",
+    "thumbnail": "../src/assets/AboutIt.jpg",
     "desc": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
   },
   {
     "id": 16,
-    "link": "/OurCoffee/1",
     "title": "Karole",
     "country": "Brazil",
     "price": "$6.96",
-    "img": "1.jpg",
+    "img": "/1.jpg",
+    "thumbnail": "../src/assets/AboutIt.jpg",
     "desc": "Morbi a ipsum. Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui."
   },
   {
     "id": 17,
-    "link": "/OurCoffee/1",
     "title": "Binni",
     "country": "Brazil",
     "price": "$14.00",
-    "img": "1.jpg",
+    "img": "/1.jpg",
+    "thumbnail": "../src/assets/AboutIt.jpg",
     "desc": "Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus."
   },
   {
     "id": 18,
-    "link": "/OurCoffee/1",
     "title": "Mabelle",
     "country": "Brazil",
     "price": "$13.95",
-    "img": "3.jpg",
+    "img": "/3.jpg",
+    "thumbnail": "/AboutIt.jpg",
     "desc": "Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus."
   },
   {
     "id": 19,
-    "link": "/OurCoffee/1",
     "title": "Robyn",
     "country": "Brazil",
     "price": "$12.70",
-    "img": "1.jpg",
+    "img": "/1.jpg",
+    "thumbnail": "../src/assets/AboutIt.jpg",
     "desc": "Aliquam non mauris."
   },
   {
     "id": 20,
-    "link": "/OurCoffee/1",
     "title": "Raquela",
     "country": "Brazil",
     "price": "$14.73",
-    "img": "2.jpg",
+    "img": "/2.jpg",
+    "thumbnail": "../src/assets/AboutIt.jpg",
     "desc": "Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc."
   }
 ]

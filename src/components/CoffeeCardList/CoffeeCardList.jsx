@@ -15,7 +15,7 @@ const CoffeeCardList = () => {
     )
   if (!data || data.length === 0) return <div>Нет данных</div>
 
-  console.log("coffeeCard: ", data)
+  // console.log("coffeeCard: ", data)
   return (
     <div className={styles.coffeeCardList__container}>
       <CoffeeCard data={data} />

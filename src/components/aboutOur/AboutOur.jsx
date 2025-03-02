@@ -1,11 +1,10 @@
 import styles from "./AboutOur.module.scss"
-// import beensLogo from "../../assets/beansLogo.svg"
 import Picture from "../Picture/Picture"
 import Title from "../Title/Title"
 
-// import img from "../../assets/AboutOurBeansImg.jpg"
-
-const AboutOur = ({ img, title, children }) => {
+const AboutOur = ({ data, children, align = "center" }) => {
+  const { img, title, country, price } = data
+  console.log("data: ", data)
   return (
     <section className={styles.AboutOur}>
       <div className={styles.AboutOur__left}>
@@ -16,14 +15,19 @@ const AboutOur = ({ img, title, children }) => {
         />
       </div>
       <div className={styles.AboutOur__right}>
-        {/* <h2 className={`${styles.AboutOur__title} title`}>{title}</h2>
-        <img
-          src={beensLogo}
-          className={styles.AboutOur__logo}
-          alt="beens Logo"
-        /> */}
         <Title title={title} />
-        <div className={styles.AboutOur__desc}>{children}</div>
+        {country ? (
+          <div className={styles.AboutOur__country}>Country: {country}</div>
+        ) : null}
+        <div
+          className={`${styles.AboutOur__desc} ${
+            align === "center" ? styles.AboutOur__center : ""
+          }`}>
+          {children}
+        </div>
+        {price ? (
+          <div className={styles.AboutOur__price}>Price: {price}</div>
+        ) : null}
       </div>
     </section>
   )

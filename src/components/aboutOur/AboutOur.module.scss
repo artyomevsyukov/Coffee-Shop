@@ -3,7 +3,7 @@
 .AboutOur {
   display: flex;
   justify-content: center;
-  text-align: center;
+  // text-align: center;
   padding-top: 70px;
   padding-bottom: 30px;
   background-color: $white;
@@ -15,8 +15,8 @@
     margin-right: 80px;
   }
 
-  &__right {
-  }
+  // &__right {
+  // }
 
   &__title {
     margin-top: 10px;
@@ -33,12 +33,23 @@
   }
 
   &__desc {
-    margin: 0 auto;
+    margin: 0 auto 16px;
     max-width: 350px;
     margin-bottom: 20px;
     color: $black;
     font-weight: 400;
     font-size: 14px;
+    text-align: start;
+  }
+  &__center {
     text-align: center;
+  }
+
+  &__country {
+    margin-bottom: 16px;
+    text-align: start;
+  }
+  &__price {
+    text-align: start;
   }
 }

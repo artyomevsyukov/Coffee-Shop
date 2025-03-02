@@ -6,7 +6,10 @@ const CoffeeCard = ({ data }) => {
   return (
     <>
       {data.map((el) => (
-        <Link to={el.link} className={styles.coffeeCard__link} key={el.id}>
+        <Link
+          to={`/OurCoffee/${el.id}`}
+          className={styles.coffeeCard__link}
+          key={el.id}>
           <div className={styles.coffeeCard}>
             <picture>
               <source srcSet={srcSetWebp(el.img)} type="image/webp" />
