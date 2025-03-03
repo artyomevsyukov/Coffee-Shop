@@ -10,8 +10,14 @@ const Filter = ({ onFilterChange }) => {
     onFilterChange({ type: "input", value })
   }
 
-  const handleButtonClick = (filterType) => {
-    onFilterChange({ type: "button", value: filterType })
+  // const handleButtonClick = (filterType) => {
+  //   onFilterChange({ type: "button", value: filterType })
+  // }
+  const handleButtonClick = (e) => {
+    const filterType = e.target.dataset.filterType
+    if (filterType) {
+      onFilterChange({ type: "button", value: filterType })
+    }
   }
 
   return (
@@ -29,25 +35,33 @@ const Filter = ({ onFilterChange }) => {
       </div>
       <div className={styles.filter__filters}>
         <div className={styles.filter__label}>Or filter</div>
-        <div className={styles.filter__buttons}>
+        <div className={styles.filter__buttons} onClick={handleButtonClick}>
           <button
+            data-filter-type="Brazil"
             className={styles.filter__button}
-            onClick={() => handleButtonClick("Brazil")}>
+            // onClick={() => handleButtonClick("Brazil")}
+          >
             Brazil
           </button>
           <button
+            data-filter-type="Kenya"
             className={styles.filter__button}
-            onClick={() => handleButtonClick("Kenya")}>
+            // onClick={() => handleButtonClick("Kenya")}
+          >
             Kenya
           </button>
           <button
+            data-filter-type="Columbia"
             className={styles.filter__button}
-            onClick={() => handleButtonClick("Columbia")}>
+            // onClick={() => handleButtonClick("Columbia")}
+          >
             Columbia
           </button>
           <button
+            data-filter-type="Clear"
             className={styles.filter__button}
-            onClick={() => handleButtonClick("Clear")}>
+            // onClick={() => handleButtonClick("Clear")}
+          >
             Clear
           </button>
         </div>

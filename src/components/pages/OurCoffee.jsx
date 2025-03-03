@@ -20,26 +20,34 @@ const OurCoffee = () => {
   }, [data])
   // Обработчик изменения фильтра
   const handleFilterChange = (filter) => {
-    // Здесь можно обновить состояние или выполнить фильтрацию данных
-
     if (!data.length) return
 
-    switch (filter.value) {
-      case "Brazil":
-        setCoffeeList(data.filter((item) => item.country === "Brazil"))
-        break
-      case "Kenya":
-        setCoffeeList(data.filter((item) => item.country === "Kenya"))
-        break
-      case "Columbia":
-        setCoffeeList(data.filter((item) => item.country === "Columbia"))
-        break
-      case "Clear":
-        setCoffeeList(data)
-        break
-      default:
-        setCoffeeList(data)
-        break
+    if (filter.type === "input") {
+      // Обработка фильтрации по вводу
+      setCoffeeList(
+        data.filter((item) =>
+          item.title.toLowerCase().includes(filter.value.toLowerCase())
+        )
+      )
+    } else if (filter.type === "button") {
+      // Обработка фильтрации по кнопкам
+      switch (filter.value) {
+        case "Brazil":
+          setCoffeeList(data.filter((item) => item.country === "Brazil"))
+          break
+        case "Kenya":
+          setCoffeeList(data.filter((item) => item.country === "Kenya"))
+          break
+        case "Columbia":
+          setCoffeeList(data.filter((item) => item.country === "Columbia"))
+          break
+        case "Clear":
+          setCoffeeList(data)
+          break
+        default:
+          setCoffeeList(data)
+          break
+      }
     }
   }
 
