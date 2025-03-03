@@ -2,6 +2,7 @@ import { useParams } from "react-router-dom"
 import useCoffeeData from "../../hooks/useCoffeeData"
 import { useEffect, useState } from "react"
 import AboutOur from "../aboutOur/AboutOur"
+import ErrorMessage from "../errorMessage/ErrorMessage"
 
 const CoffeeInfo = () => {
   const { coffeeId } = useParams()
@@ -37,7 +38,7 @@ const CoffeeInfo = () => {
           {coffee.desc}
         </AboutOur>
       ) : (
-        <div>No data found</div>
+        <ErrorMessage />
       )}
     </>
   )

@@ -9,14 +9,22 @@ const CoffeeCardList = ({ data, loading, error, refetch }) => {
   if (loading) return <div>Loading...</div>
   if (error)
     return (
-      <div>
-        <div>Error: {error}</div>
-        <button onClick={refetch}>Try Again</button>
+      <div className={styles.coffeeCardList__error}>
+        <div className={styles.coffeeCardList__errorMessage}>
+          Error: Couldn't upload data {error}
+        </div>
+        <button onClick={refetch} className={styles.coffeeCardList__button}>
+          Try Again
+        </button>
       </div>
     )
-  if (!data || data.length === 0) return <div>Нет данных</div>
+  if (!data || data.length === 0)
+    return (
+      <div className={styles.coffeeCardList__notFound}>
+        No such coffee was found.
+      </div>
+    )
 
-  // console.log("coffeeCardz`: ", data)
   return (
     <>
       <div className={styles.coffeeCardList__container}>
@@ -26,7 +34,7 @@ const CoffeeCardList = ({ data, loading, error, refetch }) => {
   )
   // return (
   //   <section className={styles.coffeeCardList}>
-  //     {/* <button
+  //     <button
   //       onClick={refetch}
   //       style={{
   //         display: "block",
@@ -35,7 +43,7 @@ const CoffeeCardList = ({ data, loading, error, refetch }) => {
   //         border: "1px solid blue",
   //       }}>
   //       Try Again
-  //     </button> */}
+  //     </button>
 
   //     <CoffeeCard data={data} />
   //   </section>
