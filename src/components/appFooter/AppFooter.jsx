@@ -1,5 +1,6 @@
 import AppHeader from "../appHeader/AppHeader"
-import beensLogo from "../../assets/beansLogo.svg"
+// import beensLogo from "../../assets/beansLogo.svg"
+import beensLogo from "@/beansLogo.svg"
 
 import styles from "./appFooter.module.scss"
 

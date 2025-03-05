@@ -1,5 +1,8 @@
+// import { data } from "../../JSON/data"
+
 const getCoffeeData = async () => {
   const url = "/JSON/data.json"
+  // const url = data
 
   try {
     const res = await fetch(url)
