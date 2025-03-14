@@ -11,4 +11,13 @@ const Title = ({ title }) => {
   )
 }
 
+// const Title = ({ children }) => {
+//   return (
+//     <div className={styles.title}>
+//       <h2 className={`${styles.title__title} title`}>{children}</h2>
+//       <img src={beensLogo} className={styles.title__logo} alt="beens Logo" />
+//     </div>
+//   )
+// }
+
 export default Title
