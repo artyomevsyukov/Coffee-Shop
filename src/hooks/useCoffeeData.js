@@ -6,6 +6,10 @@ const useCoffeeData = () => {
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState(null)
 
+  useEffect(() => {
+    fetchData()
+  }, [])
+
   const fetchData = async () => {
     setLoading(true)
     setError(null)
@@ -33,10 +37,6 @@ const useCoffeeData = () => {
       return null
     }
   }
-
-  useEffect(() => {
-    fetchData()
-  }, [])
 
   return { data, loading, error, refetch: fetchData, singleCoffeeData }
 }

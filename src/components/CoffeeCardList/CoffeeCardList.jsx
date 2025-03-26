@@ -27,9 +27,10 @@ const CoffeeCardList = ({ data, loading, error, refetch }) => {
 
   return (
     <>
-      <div className={styles.coffeeCardList__container}>
+      <ul className={styles.coffeeCardList__container}>
         <CoffeeCard data={data} />
-      </div>
+      </ul>
+      <button>Load more</button>
     </>
   )
   // return (
